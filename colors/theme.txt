@@ -1,0 +1,5 @@
+Primary: #A7C6D9
+Secondary: #5A97B5
+Accent: #B0E0E6
+Highlight: #F0FFFF
+Background: #17202A

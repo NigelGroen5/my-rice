@@ -1,8 +1,7 @@
-# Default config for sway
+# This is my configuration file for sway.
+# I built off of the default configuration file, so a lot of this file I didn't create.
 #
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
-# Read `man 5 sway` for a complete reference.
+# Read `man 5 sway` for a complete reference sway rice options.
 
 ### Variables
 #

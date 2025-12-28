@@ -45,7 +45,7 @@ output DP-2 {
 
 #gaps
 gaps inner 8px
-gaps outer 8px
+gaps outer 8px 
 
 #border size
 default_border pixel 1px

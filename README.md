@@ -1,1 +1,1 @@
-Work in progress building my rice with sway
+Work in progress building my arch linux rice with sway

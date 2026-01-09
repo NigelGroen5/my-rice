@@ -1,0 +1,94 @@
+* {
+  font-family: Maple Mono;
+  background: transparent;
+  color: #cfe9f1; /* icy white text */
+}
+
+/* Main window panel */
+#window {
+  color: #cfe9f1;
+  border-color: #cfe9f1;
+  border-style: solid;
+  border-width: 1px;
+
+  background: rgba(11, 20, 26, 0.7); 
+  backdrop-filter: blur(6px);        
+  border-radius: 14px;
+}
+
+/* Scroll bar / separator */
+#scroll {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #cfe9f1;
+}
+
+/* Inner container for padding */
+#inner-box {
+  padding-top: 16px;
+}
+
+/* Individual entries in menu/list */
+#entry {
+  border-style: none;
+  border-color: #cfe9f1;
+  color: #cfe9f1;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 14px;
+  margin-right: 14px;
+
+  border-radius: 12px;
+  transition: all 150ms ease;
+}
+
+/* Selected entry highlight */
+#entry:selected {
+  background-image: linear-gradient(to bottom, #1e3a47 0%, #16232c 100%);
+  color: #cfe9f1;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 8px rgba(111, 188, 214, 0.4); 
+}
+
+/* Input field */
+#input {
+  background-color: rgba(11, 20, 26, 0.7); 
+  color: #cfe9f1;
+  border-color: #cfe9f1;
+
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+
+  font-style: normal;
+
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  padding: 14px;
+  margin: 10px;
+  transition: all 150ms ease;
+}
+
+/* Input field focus */
+#input:focus {
+  background: rgba(22, 35, 44, 0.8); 
+  border-color: #6fbcd6; 
+  box-shadow: 0 0 12px rgba(111, 188, 214, 0.6);
+  font-style: italic;
+}
+
+/* Icons / images */
+#img {
+  padding: 4px;
+  margin-right: 6px;
+  filter: drop-shadow(0 0 2px #6fbcd6); 
+}
+
+/* Optional hover effect for entries */
+#entry:hover {
+  background-image: linear-gradient(to bottom, #16232c 0%, #0b141a 100%);
+  box-shadow: 0 0 6px rgba(111, 188, 214, 0.3);
+}

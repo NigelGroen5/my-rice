@@ -1,14 +1,15 @@
 * {
+  /* Clean, cold mono look */
   font-family: Maple Mono;
-  border-radius: 8;
+  border-radius: 8px;
   font-size: 14px;
   padding: 0px;
   background: transparent;
 }
 
 window#waybar {
-  background-image: linear-gradient(to bottom, #0b141a 100%);
-  border-radius: 14px;
+  /* Deep glacial night */
+  background-image: linear-gradient(to bottom, #0b141a 0%, #0b141a 100%);  border-radius: 14px;
   padding: 0px;
   border-style: none;
 }
@@ -20,6 +21,7 @@ window#waybar {
 #tray,
 #workspaces,
 #pulseaudio {
+  /* Frosted ice blocks */
   background-image: linear-gradient(to bottom, #16232c 100%);
   margin: 6px;
   margin-right: 0px;
@@ -34,6 +36,7 @@ window#waybar {
   margin-right: 6px;
 }
 
+/* Hover = icy glow */
 #pulseaudio:hover {
   background-image: linear-gradient(to bottom, #6fbcd6 100%);
   color: #0b141a;
@@ -50,6 +53,7 @@ window#waybar {
   transition-duration: 120ms;
 }
 
+/* Tray menus */
 #tray menu {
   background-color: #0b141a;
   color: #cfe9f1;
@@ -71,30 +75,35 @@ window#waybar {
   font-weight: bold;
 }
 
+/* Workspaces */
+#workspaces {
+  margin: 6px;
+}
+
 #workspaces button {
-  transition-duration: 100ms;
-  all: initial;
   min-width: 0;
+  padding: 4px 10px;
+  margin: 0 6px;
+  border-radius: 8px;
   font-weight: bold;
   color: #cfe9f1;
-  margin-right: 0.2cm;
-  margin-left: 0.2cm;
+  background: transparent;
+  transition-duration: 120ms;
 }
 
 #workspaces button:hover {
-  transition-duration: 120ms;
   color: #8fd3e8;
 }
 
 #workspaces button.focused,
 #workspaces button.active {
   color: #6fbcd6;
-  font-weight: bold;
 }
 
 #workspaces button.urgent {
   color: #ffd29d;
 }
+
 
 /* Battery */
 #battery {
@@ -108,3 +117,4 @@ window#waybar {
   color: #0b141a;
   background-color: #e05f65;
 }
+

@@ -1,1 +1,1 @@
-Work in progress building my arch linux rice with sway
+My Arch Linux Rice built with sway, hyperland, kitty, wofi, waybar, and nautilus.
